@@ -1,0 +1,18 @@
+{
+  "name": "redis-pubsub-pair",
+  "version": "0.0.0",
+  "description": "Open a Redis Pub/Sub pair ensuring that Sub client is subscribed",
+  "devDependencies": {
+    "redis": "~0.9.0",
+    "assert-called": "~0.1.2-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mmalecki/redis-pubsub-pair.git"
+  },
+  "scripts": {
+    "test": "node test/simple-test.js"
+  },
+  "main": "./lib/redis-pubsub-pair.js",
+  "license": "MIT"
+}
